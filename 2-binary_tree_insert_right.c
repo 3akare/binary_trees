@@ -11,6 +11,7 @@
  */
 
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
+/** This function doesn't **/
 {
 	binary_tree_t *new, *temp;
 	int temp_int;
@@ -40,5 +41,6 @@ binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 		temp->right = new;
 		return (new);
 	}
+    /** This function doesn't work **/
 	return (NULL);
 }
