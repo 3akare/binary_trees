@@ -61,5 +61,5 @@ Output:
 This project was written as part of the curriculum for Holberton.
 
 ## Others
-- Definition of Binary tree. [upgrad.com](./https://www.upgrad.com/blog/5-types-of-binary-tree/#:~:text=A%20binary%20tree%20is%20a,nodes%20are%20the%20parent%20nodes.)
-- Printing Out Trees. [Print trees Original Code](./https://stackoverflow.com/a/13755911/5184480)
+- Definition of Binary tree. [upgrad.com](https://www.upgrad.com/blog/5-types-of-binary-tree/#:~:text=A%20binary%20tree%20is%20a,nodes%20are%20the%20parent%20nodes.)
+- Printing Out Trees. [Print trees Original Code](https://stackoverflow.com/a/13755911/5184480)
