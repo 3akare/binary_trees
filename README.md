@@ -54,7 +54,7 @@ Output:
 (-09)     (-07)
 ```
 # Authors
-- [David Bakare](./github.com/3akare)
+- [David Bakare](https://github.com/3akare)
 - [Omorisiagbon Abraham Osazee](./#)
 
 # Acknowledgements
