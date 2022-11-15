@@ -55,7 +55,7 @@ Output:
 ```
 # Authors
 - [David Bakare](https://github.com/3akare)
-- [Omorisiagbon Abraham Osazee](./#)
+- [Omorisiagbon Abraham Osazee]()
 
 # Acknowledgements
 This project was written as part of the curriculum for Holberton.
