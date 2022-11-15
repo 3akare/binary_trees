@@ -40,7 +40,7 @@ typedef struct binary_tree_s heap_t;
 |Operation|Function|File location|
 |----------|--------|---------|
 |Create Binary Tree Node |`binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)`|[here](./0-binary_tree_node.c)|
-| inserts a node as the right-child of another node|`binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);`|[here](./1.binary_tree_insert_right.c)|
+| inserts a node as the right-child of another node|`binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);`|[here](./2.binary_tree_insert_right.c)|
 |is Node == `leaf`| `int binary_tree_is_leaf(const binary_tree_t *node)`| [here](./4-binary_tree_is_leaf.c)|
 |Print tree| `static size_t _height(const binary_tree_t *tree)`  `static int print_t(const binary_tree_t *tree, int offset, int depth, char **s)`  `void binary_tree_print(const binary_tree_t *tree)`|[here](./binary_tree_print.c)|
 
