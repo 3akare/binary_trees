@@ -37,14 +37,15 @@ typedef struct binary_tree_s avl_t;
 typedef struct binary_tree_s heap_t;
 ```
 # Tree Operations
-|Operations|Function|Location|
+|Operation|Function|Location|
 |----------|--------|---------|
-|Create Binary Tree Node |`binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)`|0-binary_tree_node.c
-|Print tree| `static size_t _height(const binary_tree_t *tree)`  `static int print_t(const binary_tree_t *tree, int offset, int depth, char **s)`  `void binary_tree_print(const binary_tree_t *tree)`|binary_tree_print.c
+|Create Binary Tree Node |`binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)`|0-binary_tree_node.c|
+|is Node == `leaf`| `int binary_tree_is_leaf(const binary_tree_t *node)`| 4-binary_tree_is_leaf.c|
+|Print tree| `static size_t _height(const binary_tree_t *tree)`  `static int print_t(const binary_tree_t *tree, int offset, int depth, char **s)`  `void binary_tree_print(const binary_tree_t *tree)`|binary_tree_print.c|
 
 ## Tree Print Display
 
-Output:
+Sample:
 ```
                            .----------------------(006)-------.
                       .--(001)-------.                   .--(008)--.
