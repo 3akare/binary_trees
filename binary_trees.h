@@ -22,11 +22,11 @@ typedef struct binary_tree_s
 	struct binary_tree_s *right;
 } binary_tree_t;
 
-typedef struct binary_tree_s binary_tree_t;
+/* typedef struct binary_tree_s binary_tree_t; */
 /*Binary Search tree*/
-typedef struct binary_tress_s bst_t;
+/* typedef struct binary_tress_s bst_t; */
 /*AVL Tree*/
-typedef struct binary_tree_s avl_t;
+/* typedef struct binary_tree_s avl_t; */
 /*Max Binary Heap*/
 typedef struct binary_tree_s heap_t;
 
