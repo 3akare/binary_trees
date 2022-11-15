@@ -2,7 +2,7 @@
 
 A binary tree is a tree-type non-linear data structure with a maximum of two children for each parent. Every node in a binary tree has a left and right reference along with the data element. The node at the top of the hierarchy of a tree is called the root node. The nodes that hold other sub-nodes are the parent nodes.
 
-# Trees Structure
+# Tree Structure
 ### Basic Binary Tree Structure
 ```
 /**
@@ -40,7 +40,7 @@ typedef struct binary_tree_s heap_t;
 |Operations|Function|Location|
 |----------|--------|---------|
 |Create Binary Tree Node |`binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)`|0-binary_tree_node.c
-|Print tree| `static size_t _height(const binary_tree_t *tree)` `static int print_t(const binary_tree_t *tree, int offset, int depth, char **s)` `void binary_tree_print(const binary_tree_t *tree)`|binary_tree_print.c
+|Print tree| `static size_t _height(const binary_tree_t *tree)`  `static int print_t(const binary_tree_t *tree, int offset, int depth, char **s)`  `void binary_tree_print(const binary_tree_t *tree)`|binary_tree_print.c
 
 ## Tree Print Display
 
