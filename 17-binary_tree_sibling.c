@@ -9,7 +9,10 @@ binary_tree_t *binary_tree_sibling(const binary_tree_t *node)
 {
 	if (!node || !node->parent)
 		return (NULL);
-	if (node->n == node->parent->left->n)
-		return (node->parent->right);
-	return (node->parent->left);
+	if (node->n == node->parent->left->n && node->parent->left != NULL)
+		if (node->parent->right != NULL)
+			return (node->parent->right);
+	if (node->parent->left != NULL)
+		return (node->parent->left);
+	return (NULL);
 }
