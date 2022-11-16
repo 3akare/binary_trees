@@ -52,6 +52,7 @@ typedef struct binary_tree_s heap_t;
 |Tree depth|`size_t binary_tree_depth(const binary_tree_t *tree);`|[here](./10-binary_tree_depth.c)|
 |Tree size|`size_t binary_tree_size(const binary_tree_t *tree);`|[here](./11-binary_tree_size.c)|
 |Tree Leaves|`size_t binary_tree_leaves(const binary_tree_t *tree);`|[here](./12-binary_tree_leaves.c)|
+|Get Sibling|`binary_tree_t *binary_tree_sibling(const binary_tree_t *node);`|[here](./17-binary_tree_sibling.c)|
 |Print tree| `static size_t _height(const binary_tree_t *tree)`  `static int print_t(const binary_tree_t *tree, int offset, int depth, char **s)`  `void binary_tree_print(const binary_tree_t *tree)`|[here](./binary_tree_print.c)|
 
 ## Tree Print Display
